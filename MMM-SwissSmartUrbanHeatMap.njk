@@ -1,0 +1,20 @@
+{% if loading %}
+  <div class="loading">Am lade…</div>
+{% else %}
+<h1>{{ lastReadTimeStamp }}</h1>
+<div class="humidity-{{ humidity }}">
+  <div class="current">
+    <div class="temperature">
+      <a class="fa fa-thermometer-half"> {{ temperature | round(2) }}°</a>
+   </div>
+  </div>
+  <div class="copyright">
+     <span>Data by Smart Urban Heat Map, Bern CH</span>
+  </div>
+  <div class="humidity">
+    <div class="temperature">
+      <a class="fa fa-tint"> {{ relativeHumidity | round(2) }}%</a>
+    </div>
+  </div>
+</div>
+{% endif %}
