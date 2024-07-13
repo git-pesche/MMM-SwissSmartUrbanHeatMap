@@ -26,7 +26,7 @@ modules: [
     position: 'top_right',
     header: 'Elfenau Bern',
     config: {
-      city: '1E40CBFEFFE70FFE',
+      city: '11025',
       humidity: 'vertical',
     }
   },
@@ -38,6 +38,6 @@ modules: [
 
 | Option           | Description                                                                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| city             | Location of the measuring station to display the temperature & humidity. (possible values see: https://smart-urban-heat-map.ch/api/1.0/stations) |
+| city             | Location of the measuring station to display the temperature & humidity. (possible values see: https://smart-urban-heat-map.ch/api/v2/stations) |
 | humidity         | Layout to show humidity with ('vertical', 'horizontal' or 'none')                                                                                |
 | updateIntervalMs | How often the module should update itself (every 15min by default)                                                                               |
