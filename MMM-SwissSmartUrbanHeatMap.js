@@ -16,8 +16,8 @@ Module.register('MMM-SwissSmartUrbanHeatMap', {
   defaults: {
     // The location for which to retrieve the river temperature. Valid options
     // you will find by the Smart Urban Heat Map
-    // API: https://smart-urban-heat-map.ch/api/1.0/stations.
-    city: '1E40CBFEFFE70FFE',  // Elfenau, nice place in Bern!
+    // API: https://smart-urban-heat-map.ch/api/v2/stations.
+    city: '11025',  // Elfenau, nice place in Bern!
 
     // How to display the humidity. Valid options are 'vertical', 'horizontal'
     // or 'none'.
@@ -28,7 +28,7 @@ Module.register('MMM-SwissSmartUrbanHeatMap', {
     updateIntervalMs: 5 * 60 * 1000,
 
     // API location. For API-doc see: https://meteotest.github.io/urban-heat-API-docs/de/
-    api: 'https://smart-urban-heat-map.ch/api/1.0/timeseries?',
+    api: 'https://smart-urban-heat-map.ch/api/v2/timeseries?',
   },
 
   requiresVersion: '2.2.1',
