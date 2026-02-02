@@ -28,6 +28,7 @@
 .MMM-SwissSmartUrbanHeatMap .temperature {
   font-size: 2rem;
   line-height: 3.5rem;
+  text-align: left;
 }
 
 .MMM-SwissSmartUrbanHeatMap .copyright {
@@ -54,9 +55,13 @@
 }
 
 .MMM-SwissSmartUrbanHeatMap .fa-thermometer-half {
-
+  margin: 0;
 }
 
 .MMM-SwissSmartUrbanHeatMap .fa-tint {
+  margin: 0;
+}
 
+.MMM-SwissSmartUrbanHeatMap .no-wrap {
+  white-space: nowrap;
 }
